@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: linear-gradient(black 15%, rgb(1, 1, 78) 50%,rgb(66, 3, 66) );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.top {
+    color: rgb(203, 200, 200);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+    margin-top: 13vh;
+    margin-left: 15vh;
+}
+hr {
+    width: 90%;
+}
+.overview {
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#mtr {
+    color: rgb(223, 219, 219);
+}
+#logicpro {
+    width: 300px;
+    height: 200px;
+}
+#btn {
+    width: 105px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: yellow;
+    border-radius: 10px;
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: medium;
+}
+#btn:hover {
+    scale: 1.2;
+}
+#gap {
+    width: 100%;
+    height: 100vh;
+}
+#piano {
+    background-color: black;
+    width: 98%;
+    height: 100vh;
+    margin-left: 13px;
+}
+#p, #s, #u, #i, #g, #a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10%;
+}
+#sundari, #perfect, #until, #interstellar {
+    margin-left: 9%;
+}
+#pianoimg {
+    width: 100vh;
+    height: 94vh;
+    margin-left: 50%;
+    margin-top: -50%;
+}
+#guitar {
+    background-color: black;
+    width: 98%;
+    height: 70vh;
+    margin-left: 13px;
+    margin-top: 5px;
+}
+#apna {
+    margin-left: 9%;
+}
+#gimg {
+    width: 35%;
+    height: 90%;
+    margin-top: -15%;
+    margin-left: 53%;
+}
+#more {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -13%;
+    margin-left: 9%;
+}
+#end {
+    width: 98%;
+    height: 62vh;
+    background-color: black;
+    margin-left: 13px;
+    margin-top: 5px;
+}
+#thank {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 9%;
+}
+#line {
+    width: 99.7%;
+    margin-left: 1px;
+}
+#contact, #m, #em, #inst {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 57%;
+    color: rgb(190, 190, 190);
+}
+#instlogo {
+    width: 20px;
+    height: 20px;
+    margin: -3px;
+}
+#logo {
+    width: 200px;
+    height: 200px;
+    margin-top: -13%;
+    margin-left: 10%;
+}
+
+/* Mobile-Friendly Styles */
+@media (max-width: 768px) {
+    .top {
+        font-size: 4vh;
+        margin-left: 10%;
+        margin-top: 10vh;
+    }
+    #piano {
+        height: auto;
+        margin-left: 3px;
+        margin-top: 75%;
+    }
+    #p, #s, #u, #i, #g, #a {
+        margin-left: 5%;
+    }
+    #pianoimg {
+        width: 90vw;
+        height: auto;
+        margin-left: 5%;
+        margin-top: -90%;
+    }
+    #guitar {
+        height: auto;
+        margin-left: 3px;
+        margin-top: 10px;
+    }
+    #gimg {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: -30%;
+    }
+    #end {
+        height: auto;
+        margin-top: 10px;
+        margin-left: 2%;
+    }
+    #logo {
+        width: 100px;
+        height: 100px;
+        margin-left: 70%;
+        margin-top: 5px;
+    }
+    #contact, #m, #em, #inst {
+        margin-left: 5%;
+    }
+    #instlogo {
+        width: 18px;
+        height: 18px;
+    }
+    #gap {
+        height: auto;
+    }
+    #end{
+        margin-left: 3px;
+        
+    }
+    #thank {
+        margin-left: 5%;
+        padding: 10px;
+    }
+    #more {
+        margin-left: 5%;
+        margin-top: -25%;
+        padding: 5px;
+    }
+    #line {
+        width: 100%;
+    }
+    hr {
+        width: 80%;
+    }
+}
